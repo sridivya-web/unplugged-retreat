@@ -133,7 +133,7 @@ p {
 }
  
 img {
- 
+ width:100%;
 }
  
 figure {
@@ -256,6 +256,17 @@ address {
   font-weight: 500; 
   line-height: 1.2; 
   }
+   
+  .hero-area .content-wrapper {
+    
+    background: url('../img/bridge.jpg') center no-repeat #333;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap; 
+
+   }
+
 
    /******Aside Area******/
    aside {  
@@ -293,6 +304,15 @@ input[type=button] {
 }
 
     /*****Features******/
+    .features .content-wrapper {
+    
+    background: url('../img/unsplash.jpg') center no-repeat #333;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    flex-flow:row wrap; 
+
+   }
    .features {
     display: flex;
     justify-content: center;
