@@ -511,31 +511,7 @@ input[type=button] {
   clear: both;
 }
 
-aside .form {
-  margin-top: 30px;
-}
- 
-input[type=text] {
-  box-sizing: border-box;
-  width: 100%;
-  color: #2a423a;
-  font-style: italic;
-  padding: 1em;
-}
- 
-input[type=button] {
-  width: 100%;
-  padding: 20px 0;
-  margin-top: 20px;
-  background-color: #2a423a;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 1.125em;
-  color: #e2e3ed;
-  border: none;
-  text-align: center;
-  text-transform: uppercase;
-}
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -705,7 +681,10 @@ input[type=button] {
     .mission-content p {
         width: 45%;
     }
- 
+     
+   .map figure {
+    padding-bottom: 45.5%;
+  }
     .contact-section .content-wrapper h2 {
         width:80%;
     }
@@ -811,6 +790,10 @@ input[type=button] {
 /* ==========================================================================
    About Page
    ========================================================================== */
+
+     .map figure {
+    padding-bottom: 37.5%;
+  }
     .mission h2,
     .contact-section .content-wrapper h2 {
         width: 95%;
@@ -820,7 +803,9 @@ input[type=button] {
     .contact-content h4 {
     font-size: 1.875em;
   }
- 
+
+  
+
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
