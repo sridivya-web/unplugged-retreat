@@ -246,6 +246,11 @@ address {
     justify-content: center;
     align-items: center;
    }
+   
+   .social-icons i {
+    
+        margin-left: 30px;
+   }
 
    footer.copyright {
     margin: 20px 0;
@@ -823,8 +828,8 @@ input[type=button] {
       font-size: 1.125em;
       line-height: 1;
   }
- 
-
+   
+   
 }
 
 /* ==========================================================================
