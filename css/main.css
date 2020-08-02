@@ -104,6 +104,8 @@ ul,
 ol {
  
  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
  
 a {
@@ -116,6 +118,7 @@ h2 {
    font-family: 'Poppins', sans-serif;
    font-weight: 500;
    font-size: 1.875em;
+   margin:0;
 }
  
 h3, 
@@ -123,7 +126,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   margin:20px 0;
   font-size: 1.125em;
-  margin: 20px 0;
+ font-weight: 500;
 }
  
 p {
@@ -169,11 +172,12 @@ address {
 
   header .content-wrapper{
 
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    margin: 0;
+   
  
    }
    
@@ -184,7 +188,8 @@ address {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-   }
+  }
+
    .header-divider{
 
        background: #3a3a3a; 
@@ -193,7 +198,7 @@ address {
        margin:10px 0 20px 0;
    }
    header nav {
-
+   
     width: 60%;
     font-size: 1.125em;
     font-weight: 700;
@@ -206,10 +211,11 @@ address {
    }
 
    header nav ul {
-
+    
+     width: 100%;
     display: flex;
     justify-content: space-around;
-    width: 100%;
+   
    }
    
    header nav ul li {
@@ -242,17 +248,24 @@ address {
    }
 
    footer .social-icons p {
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+   
+   }
+    footer .social-icons p i {
+      
+      font-size: 1.3125em;
+       
    }
    
-   .social-icons i {
-    
-        margin-left: 30px;
-   }
+   
 
-   footer.copyright {
+   footer .copyright {
     margin: 20px 0;
 
    }
@@ -333,7 +346,7 @@ input[type=button] {
     margin: 30px 0;
    }
 
-   .features .features-items{
+   .features .features-item{
 
     display: flex;
     justify-content: center;
@@ -405,8 +418,8 @@ input[type=button] {
    }
    
    .contact-content p {
-  margin: 0;
-} 
+    margin: 0;
+   } 
   /***-------- Faq's Page-----****/
 
    .faq {
@@ -418,7 +431,7 @@ input[type=button] {
     flex-flow: row wrap;
    }
 
-   .faq .contact-wrapper{
+   .faq .content-wrapper{
     margin: 50px 0 0 0;
     display: flex;
     justify-content: center;
@@ -533,6 +546,7 @@ input[type=button] {
   /*TABLET STYLES GO HERE*/
 
    /* General styles */
+
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
@@ -594,7 +608,7 @@ input[type=button] {
 
  
     /* Aside */
-    aside .content-wrapper {
+    aside .content-wrapper{
         margin: 50px 0;
         display: flex;
         justify-content: space-between;
@@ -674,8 +688,14 @@ input[type=button] {
   footer p {
       line-height: 1.285;
   }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+  
     footer .copyright{
-      width:100%;
+      margin: 20px 0;
       }
 
      /*About Page*/
@@ -703,7 +723,7 @@ input[type=button] {
         justify-content:space-between;
         align-items:flex-start;
       }
-
+  
       /*Faq Page*/
 
       .faq .content-wrapper {
@@ -718,7 +738,7 @@ input[type=button] {
         width: 100%;
        }
 
-     .faq h4,
+     .faq h4,   
     .faq p {
       font-size: .875em;
       line-height: 1.125;
@@ -800,7 +820,7 @@ input[type=button] {
    About Page
    ========================================================================== */
 
-     .map figure {
+  .map figure {
     padding-bottom: 37.5%;
   }
     .mission h2,
